@@ -5,7 +5,7 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = "204172399:AAEEwbZUK7UuIe6ZdOQYsI8G9O_1gP91tXk" --pit your api key of api telegram bot
+local bot_api_key = "264212837:AAErlRM6u92dbsKg1yfGSaRHInYxWRfOxE0" --pit your api key of api telegram bot
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 -- Base folder like
 -- local BASE_FOLDER = "/home/imandaneshi/files/"
@@ -16,7 +16,7 @@ local BASE_FOLDER = ""
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {97242093,225473605}-- put your id and cli pika launcher bot
+  local admins = {97242093,215298772}-- put your id and cli pika launcher bot
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
